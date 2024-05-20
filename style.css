@@ -1,7 +1,5 @@
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-
     font-family: 'Inter', sans-serif;
     
 
@@ -14,23 +12,40 @@ body{
     left: -100;
     right: 100px;
     text-decoration: none;
-    font-weight: 350;
     font-weight: 3;
     font-size: 10px;
     padding: 2px 4px;
     margin-right: 2.5px;
     transition: color 0.2s linear;
-    border-radius: 5px; /* Закругляет углы */
     border-radius: 50px; /* Закругляет углы */
 }
 
 
-@@ -43,41 +46,61 @@ background-size:cover;
+.head-logo:hover{
+    background-color: rgb(0, 0, 0); /* Черный фон при наведении */
+
+}
+
+
+.container {
+    margin: 0px 80px;
+
+}
+
+.header {
+background-color: #1c191f;
+height:150vh;
+background-size:cover;
+}
+
+.header-line {
+    padding-top: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .nav-item {
-    background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
-    color: #ffffff18;
     background-color: rgba(255, 255, 255, 0); /* Прозрачный фон */
     color: #ffffff;
     text-decoration: none;
@@ -49,8 +64,6 @@ body{
     background-color: rgba(255, 255, 255, 0); /* Прозрачный фон */
     color: #ffffff;
     text-decoration: none;
-    font-weight: 5;
-    font-size: 15px;
     font-weight:bold;
     font-size: 25px;
     padding: 5px 10px;
@@ -59,24 +72,21 @@ body{
     transition: background-color 0.2s linear;
     left:500px;
     top: -135px;
-
+    
 }
 
 .nav-item:hover {
-    color:#b6b6b6
     color:#a3a3a3
 }
 
 
 
 .discord-img {
-    position: relative;
     position: absolute;
 
     background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
     border-right: 1px solid #FFFFFF
     padding-right 5px;
-    height: 25px;
     height: 35px;
     border-radius: 5px;
     left: 870px;
@@ -88,174 +98,383 @@ body{
 }
 .twitch-img {
     position: absolute;
-    left:1000px;
-    top:65px;
-    height:25px;
     left:1020px;
     top:60px;
     height:30px;
-    weight:auto;
+    font-weight:auto;
     background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
     border-right: 1px solid #FFFFFF
-@@ -91,8 +114,8 @@ background-size:cover;
+    padding-right 5px;
+    border-radius: 5px;
+}
+
+.twitch-img:hover{
+    background-color: rgba(255, 255, 255, 0.411); /* Черный фон при наведении */
+}
 .telegram-img {
     position: absolute;
     left:800px;
-    top:65px;
-    height:25px;
     top:60px;
     height:30px;
-    weight:auto;
+    font-weight:auto;
     background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
     border-right: 1px solid #FFFFFF
-@@ -107,8 +130,8 @@ background-size:cover;
+    padding-right 5px;
+    height: 2.5  px;
+    border-radius: 5px;
+}
+
+.telegram-img:hover{
+    background-color: rgba(255, 255, 255, 0.411); /* Черный фон при наведении */
+}
 .youtube-img {
     position: absolute;
     left:950px;
-    top:65px;
-    height:25px;
     top:60px;
     height:30px;
-    weight:auto;
+    font-weight:auto;
     background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
     border-right: 1px solid #FFFFFF
-@@ -121,21 +144,18 @@ background-size:cover;
+    padding-right 5px;
+    height: 2.5  px;
+    border-radius: 5px;
+}
+
+.youtube-img:hover{
     background-color: rgba(255, 255, 255, 0.411); /* Черный фон при наведении */
 }
 
-.btn{
-position: relative;
 
-}
 .button{
-    top: -30px;   
-    right: 200px;
-    position: absolute;
     position: relative;
     top: -110px;   
     left: 1460px;
     background-color: #00558d;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-weight: 500;
     font-weight: 600;
     font-size: 10px;
     padding: 10px 50px;
-    /*margin-right: 2px;*/
     margin-right: 2px;
     transition:  0.2s linear;
     border-radius: 5px; /* Закругляет углы */
+    
+}
+.button:hover{
+    font-size: 10px;
+    background-color:#014775 ;
+    border-radius: 10px;
+}
 
-@@ -160,18 +180,20 @@ position: relative;
+.video {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 25.25%;
+}
+
+
+.header-down{
+    position: relative;
+}
+
 .header-suptitle{
     position: absolute;
     font-weight: 500;
-    top:40px;
-    color: #fff;
     top:170px;
     color: #ffffff;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     text-align: left;
     line-height:1;
-
+    
     left:75px;
 
 }
 .prolet-img {
-
+    
     position: absolute;
-    left:515px ;
     left:499px ;
     top: 50px;
     width: auto;
     height: 1060px;
-@@ -183,13 +205,13 @@ position: relative;
+    margin-right: 10px;
+    border: 1.5px solid #ffffff ;
+    border-radius: 50px;
+}
+
 #scrollBtn {
     background-color: #00558d;
     padding: 10px 100px;
-    color: #fff;
     color: #ffffff;
     font-size: 12.5px;
-    font-weight: 300;
     font-weight: 1000;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     left: 75px;
-    top: 450px;
     top: 550px;
     position: absolute;
     border-radius: 5px;
     transition: 0.2s linear;
-@@ -201,21 +223,21 @@ position: relative;
+}
+
+#scrollBtn:hover {
+    opacity: 0.4;
+}
 
 .header-subtitle {
 
-    color:rgba(255, 255, 255, 0.600);
-    font-weight: 200;
-    font-size: 17.5px;
-    top:150px;
     color:rgb(148, 148, 148);
     font-weight: 500;
     font-size:17.5px;
     top:350px;
     left:75px;
     position: absolute;
-    line-height: 25.75px;
     line-height: 27.75px;
     margin-bottom: 100px;
-
     font-family:'Inter', sans-serif;
 
 }
 
 
 .card {
-    background-color: #1c191f; /* Тёмный фон карточки */
-    background-image: vidzaz.png ; /* Тёмный фон карточки */
+    background-color: #1c191f ; /* Тёмный фон карточки */
     border-radius: 25px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     width: 215px;
-@@ -225,7 +247,7 @@ position: relative;
+    height: 300px;
+    padding: 10px;
+    color: #fff;
     text-align: left;
     border: 1.5px solid #221f25; /* Добавленная обводка */
     position: absolute;
-    top:750px;
     top:850px;
     left:200px;
     transition: background-color 0.3s ease;
 }
-@@ -298,7 +320,7 @@ position: relative;
+
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7.5px;
+}
+
+.card-icon {position: relative;
+    left:15px ;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    
+}
+
+.card-title {
+    top: 25px;
+    left:75px;
+    position: absolute;
+    font-size:30px;
+    font-weight:350;
+    margin: 0;    
+}
+
+.card-body {
+    color:rgba(255, 255, 255, 0.600);
+    font-weight: 175;
+    font-size: 12.5px;
+    top:75px;
+    left:25px;
+    position: absolute;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.card-button {
+    background-color: #2e2b33; /* Цвет кнопки */
+    border: 1px solid #28252b;
+    position: absolute;
+    top:250px;
+    right:25px;
+    border-radius: 10px;
+    padding: 12.5px 60px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #555555; /* Цвет кнопки при наведении */
+}
+.card1 {
+    background-color: #1c191f; /* Тёмный фон карточки */
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 215px;
+    height: 300px;
+    padding: 10px;
+    color: #fff;
     text-align: left;
     border: 3px solid #221f25; /* Добавленная обводка */
     position: absolute;
-    top:750px;
     top:850px;
     left:500px;
     transition: background-color 0.3s ease;
 }
-@@ -371,7 +393,7 @@ position: relative;
+
+
+.card-header1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7.5px;
+}
+
+.card-icon1 {position: relative;
+    left:15px ;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    
+}
+
+.card-title1 {
+    top: 25px;
+    left:75px;
+    position: absolute;
+    font-size:30px;
+    font-weight:300;
+    margin: 0;    
+}
+
+.card-body1 {
+    color:rgba(255, 255, 255, 0.600);
+    font-weight: 175;
+    font-size: 12.5px;
+    top:75px;
+    left:25px;
+    position: absolute;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.card-footer1 {
+    text-align: center;
+}
+
+.card-button1 {
+    background-color: #2e2b33; /* Цвет кнопки */
+    border: 1px solid #28252b;
+    position: absolute;
+    top:250px;
+    right:25px;
+    border-radius: 10px;
+    padding: 12.5px 60px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button1:hover {
+    background-color: #555555; /* Цвет кнопки при наведении */
+}
+.card2 {
+    background-color: #1c191f; /* Тёмный фон карточки */
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 215px;
+    height: 300px;
+    padding: 10px;
+    color: #fff;
     text-align: left;
     border: 3px solid #221f25; /* Добавленная обводка */
     position: absolute;
-    top:750px;
     top:850px;
     left:800px;
     transition: background-color 0.3s ease
 }
-@@ -435,12 +457,12 @@ position: relative;
+
+
+.card-header2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7.5px;
+}
+
+.card-icon2 {position: relative;
+    left:15px ;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    
+}
+
+.card-title2 {
+    top: 25px;
+    left:75px;
+    position: absolute;
+    font-size:30px;
+    font-weight:450;
+    margin: 0;    
+}
+
+.card-body2 {
+    color:rgba(255, 255, 255, 0.600);
+    font-weight: 175;
+    font-size: 12.5px;
+    top:75px;
+    left:25px;
+    position: absolute;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.card-footer2 {
+    text-align: center;
+}
+
+.card-button2 {
+    background-color: #2e2b33; /* Цвет кнопки */
+    border: 1px solid #28252b;
+    position: absolute;
+    top:250px;
+    right:25px;
+    border-radius: 10px;
+    padding: 12.5px 60px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button2:hover {
+    background-color: #555555; /* Цвет кнопки при наведении */
 }
 .primerdonata{
     color:rgba(255, 255, 255, 0.600);
-    font-weight: 17.5;
     font-weight: 25;
     font-size: 10px;
-    top:47px;
-    left:1535px;
     top:97px;
     left:1538px;
     position: absolute;
-    line-height: 0.5
     line-height: 1.5;
     margin-bottom: 100px;
+
+}
+
+@media (max-width: 768px) {
+    /* Стили для устройств с шириной экрана до 768px */
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Стили для устройств с шириной экрана от 769px до 1024px */
+  }
+  
+  @media (min-width: 1025px) {
+    /* Стили для устройств с шириной экрана от 1025px и выше */
+  }
