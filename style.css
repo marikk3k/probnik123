@@ -1,0 +1,469 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.header-logo{
+    background-color: #9affcd00;
+    color: rgb(31, 30, 31);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 4px 8px;
+    margin-right: 5px;
+    transition: color 0.2s linear;
+    border-radius: 10px; /* Закругляет углы */
+}
+
+
+.head-logo:hover{
+    background-color: rgb(0, 0, 0); /* Черный фон при наведении */
+
+}
+
+
+.container {
+    margin: 0px 166px;
+
+}
+
+.header {
+background-color: #1c191f;
+height:200vh;
+background-size:cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
+    color: #ffffff18;
+    text-decoration: none;
+    font-weight: 10;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: background-color 0.2s linear;
+}
+
+.nav-item:hover {
+    color:#b6b6b6
+}
+
+
+
+.discord-img {
+    position: relative;
+
+    background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
+    border-right: 1px solid #FFFFFF
+    padding-right 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.discord:hover{
+    background-color: rgba(255, 255, 255, 0.411); /* Черный фон при наведении */
+}
+.twitch-img {
+    position: absolute;
+    left:2000px;
+    top:80px;
+    height:50px;
+    weight:auto;
+    background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
+    border-right: 1px solid #FFFFFF
+    padding-right 10px;
+    height: 5  px;
+    border-radius: 10px;
+}
+
+.twitch-img:hover{
+    background-color: rgba(255, 255, 255, 0.411); /* Черный фон при наведении */
+}
+.telegram-img {
+    position: absolute;
+    left:1600px;
+    top:80px;
+    height:50px;
+    weight:auto;
+    background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
+    border-right: 1px solid #FFFFFF
+    padding-right 10px;
+    height: 5  px;
+    border-radius: 10px;
+}
+
+.telegram-img:hover{
+    background-color: rgba(255, 255, 255, 0.411); /* Черный фон при наведении */
+}
+.youtube-img {
+    position: absolute;
+    left:1800px;
+    top:80px;
+    height:50px;
+    weight:auto;
+    background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
+    border-right: 1px solid #FFFFFF
+    padding-right 10px;
+    height: 5  px;
+    border-radius: 10px;
+}
+
+.youtube-img:hover{
+    background-color: rgba(255, 255, 255, 0.411); /* Черный фон при наведении */
+}
+
+.btn{
+position: relative;
+
+}
+.button{
+    top: -50px;   
+    right: 1px;
+    position: absolute;
+    background-color: #00558d;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 20px;
+    padding: 20px 100px;
+    /*margin-right: 2px;*/
+    transition:  0.2s linear;
+    border-radius: 10px; /* Закругляет углы */
+    
+}
+.button:hover{
+    font-size: 20px;
+    background-color:#014775 ;
+    border-radius: 20px;
+}
+
+.video {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 56.25%;
+}
+
+
+.header-down{
+    position: relative;
+}
+
+.hearder-title{
+    position: absolute;
+    top:10000px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+   
+}
+
+.header-suptitle{
+    position: absolute;
+    font-weight: 1000;
+    top:80px;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+    left:150px;
+
+}
+.prolet-img {
+    position: absolute;
+    left:1030px ;
+    top: 100px;
+    width: auto;
+    height: 927px;
+    margin-right: 20px;
+    border: 3px solid #ffffff ;
+    border-radius: 100px;
+}
+
+#scrollBtn {
+    background-color: #00558d;
+    padding: 20px 200px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    left: 150px;
+    top: 900px;
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.2s linear;
+}
+
+#scrollBtn:hover {
+    opacity: 0.8;
+}
+
+.header-subtitle {
+
+    color:rgba(255, 255, 255, 0.600);
+    font-weight: 400;
+    font-size: 35px;
+    top:300px;
+    left:150px;
+    position: absolute;
+    line-height: 1.5;
+    margin-bottom: 200px;
+    
+
+}
+
+
+.card {
+    background-color: #1c191f; /* Тёмный фон карточки */
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 430px;
+    height: 600px;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    border: 3px solid #221f25; /* Добавленная обводка */
+    position: absolute;
+    top:1500px;
+    left:400px;
+    transition: background-color 0.3s ease;
+}
+
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-icon {position: relative;
+    left:30px ;
+    top: 30px;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    
+}
+
+.card-title {
+    top: 50px;
+    left:150px;
+    position: absolute;
+    font-size:60px;
+    font-weight:900;
+    margin: 0;    
+}
+
+.card-body {
+    color:rgba(255, 255, 255, 0.600);
+    font-weight: 350;
+    font-size: 25px;
+    top:150px;
+    left:50px;
+    position: absolute;
+    line-height: 1.5;
+    margin-bottom: 200px;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.card-button {
+    background-color: #2e2b33; /* Цвет кнопки */
+    border: 1px solid #28252b;
+    position: absolute;
+    top:500px;
+    right:50px;
+    border-radius: 20px;
+    padding: 25px 120px;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #555555; /* Цвет кнопки при наведении */
+}
+.card1 {
+    background-color: #1c191f; /* Тёмный фон карточки */
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 430px;
+    height: 600px;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    border: 3px solid #221f25; /* Добавленная обводка */
+    position: absolute;
+    top:1500px;
+    left:1000px;
+    transition: background-color 0.3s ease;
+}
+
+
+.card-header1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-icon1 {position: relative;
+    left:30px ;
+    top: 30px;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    
+}
+
+.card-title1 {
+    top: 50px;
+    left:150px;
+    position: absolute;
+    font-size:60px;
+    font-weight:900;
+    margin: 0;    
+}
+
+.card-body1 {
+    color:rgba(255, 255, 255, 0.600);
+    font-weight: 350;
+    font-size: 25px;
+    top:150px;
+    left:50px;
+    position: absolute;
+    line-height: 1.5;
+    margin-bottom: 200px;
+}
+
+.card-footer1 {
+    text-align: center;
+}
+
+.card-button1 {
+    background-color: #2e2b33; /* Цвет кнопки */
+    border: 1px solid #28252b;
+    position: absolute;
+    top:500px;
+    right:50px;
+    border-radius: 20px;
+    padding: 25px 120px;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #555555; /* Цвет кнопки при наведении */
+}
+.card2 {
+    background-color: #1c191f; /* Тёмный фон карточки */
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 430px;
+    height: 600px;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    border: 3px solid #221f25; /* Добавленная обводка */
+    position: absolute;
+    top:1500px;
+    left:1600px;
+    transition: background-color 0.3s ease;
+}
+
+
+.card-header2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-icon2 {position: relative;
+    left:30px ;
+    top: 30px;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    
+}
+
+.card-title2 {
+    top: 50px;
+    left:150px;
+    position: absolute;
+    font-size:60px;
+    font-weight:900;
+    margin: 0;    
+}
+
+.card-body2 {
+    color:rgba(255, 255, 255, 0.600);
+    font-weight: 350;
+    font-size: 25px;
+    top:150px;
+    left:50px;
+    position: absolute;
+    line-height: 1.5;
+    margin-bottom: 200px;
+}
+
+.card-footer2 {
+    text-align: center;
+}
+
+.card-button2 {
+    background-color: #2e2b33; /* Цвет кнопки */
+    border: 1px solid #28252b;
+    position: absolute;
+    top:500px;
+    right:50px;
+    border-radius: 20px;
+    padding: 25px 120px;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #555555; /* Цвет кнопки при наведении */
+}
+.primerdonata{
+    color:rgba(255, 255, 255, 0.600);
+    font-weight: 35;
+    font-size: 20px;
+    top:60px;
+    left:2550px;
+    position: absolute;
+    line-height: 1.5;
+    margin-bottom: 200px;
+
+}
+
+@media (max-width: 768px) {
+    /* Стили для устройств с шириной экрана до 768px */
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Стили для устройств с шириной экрана от 769px до 1024px */
+  }
+  
+  @media (min-width: 1025px) {
+    /* Стили для устройств с шириной экрана от 1025px и выше */
+  }
