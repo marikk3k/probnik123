@@ -9,12 +9,12 @@ body{
     background-color: #9affcd00;
     color: rgb(31, 30, 31);
     text-decoration: none;
-    font-weight: 700;
-    font-size: 20px;
-    padding: 4px 8px;
-    margin-right: 5px;
+    font-weight: 350;
+    font-size: 10px;
+    padding: 2px 4px;
+    margin-right: 2.5px;
     transition: color 0.2s linear;
-    border-radius: 10px; /* Закругляет углы */
+    border-radius: 5px; /* Закругляет углы */
 }
 
 
@@ -25,18 +25,18 @@ body{
 
 
 .container {
-    margin: 0px 166px;
+    margin: 0px 80px;
 
 }
 
 .header {
 background-color: #1c191f;
-height:200vh;
+height:150vh;
 background-size:cover;
 }
 
 .header-line {
-    padding-top: 50px;
+    padding-top: 25px;
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -46,11 +46,11 @@ background-size:cover;
     background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
     color: #ffffff18;
     text-decoration: none;
-    font-weight: 10;
-    font-size: 30px;
-    padding: 10px 20px;
-    margin-right: 20px;
-    border-radius: 10px;
+    font-weight: 5;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
     transition: background-color 0.2s linear;
 }
 
@@ -65,9 +65,9 @@ background-size:cover;
 
     background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
     border-right: 1px solid #FFFFFF
-    padding-right 10px;
-    height: 50px;
-    border-radius: 10px;
+    padding-right 5px;
+    height: 25px;
+    border-radius: 5px;
 }
 
 .discord:hover{
@@ -75,15 +75,14 @@ background-size:cover;
 }
 .twitch-img {
     position: absolute;
-    left:2000px;
-    top:80px;
-    height:50px;
+    left:1000px;
+    top:65px;
+    height:25px;
     weight:auto;
     background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
     border-right: 1px solid #FFFFFF
-    padding-right 10px;
-    height: 5  px;
-    border-radius: 10px;
+    padding-right 5px;
+    border-radius: 5px;
 }
 
 .twitch-img:hover{
@@ -91,15 +90,15 @@ background-size:cover;
 }
 .telegram-img {
     position: absolute;
-    left:1600px;
-    top:80px;
-    height:50px;
+    left:800px;
+    top:65px;
+    height:25px;
     weight:auto;
     background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
     border-right: 1px solid #FFFFFF
-    padding-right 10px;
-    height: 5  px;
-    border-radius: 10px;
+    padding-right 5px;
+    height: 2.5  px;
+    border-radius: 5px;
 }
 
 .telegram-img:hover{
@@ -107,15 +106,15 @@ background-size:cover;
 }
 .youtube-img {
     position: absolute;
-    left:1800px;
-    top:80px;
-    height:50px;
+    left:950px;
+    top:65px;
+    height:25px;
     weight:auto;
     background-color: rgba(0, 0, 0, 0); /* Прозрачный фон */
     border-right: 1px solid #FFFFFF
-    padding-right 10px;
-    height: 5  px;
-    border-radius: 10px;
+    padding-right 5px;
+    height: 2.5  px;
+    border-radius: 5px;
 }
 
 .youtube-img:hover{
@@ -127,30 +126,30 @@ position: relative;
 
 }
 .button{
-    top: -50px;   
-    right: 1px;
+    top: -30px;   
+    right: 200px;
     position: absolute;
     background-color: #00558d;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-weight: 1000;
-    font-size: 20px;
-    padding: 20px 100px;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 10px 50px;
     /*margin-right: 2px;*/
     transition:  0.2s linear;
-    border-radius: 10px; /* Закругляет углы */
+    border-radius: 5px; /* Закругляет углы */
     
 }
 .button:hover{
-    font-size: 20px;
+    font-size: 10px;
     background-color:#014775 ;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .video {
     position: relative;
     z-index: 1;
-    padding-bottom: 56.25%;
+    padding-bottom: 25.25%;
 }
 
 
@@ -158,68 +157,58 @@ position: relative;
     position: relative;
 }
 
-.hearder-title{
-    position: absolute;
-    top:10000px;
-    color: #fff;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-   
-}
-
 .header-suptitle{
     position: absolute;
-    font-weight: 1000;
-    top:80px;
+    font-weight: 500;
+    top:40px;
     color: #fff;
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     
-    left:150px;
+    left:75px;
 
 }
 .prolet-img {
     position: absolute;
-    left:1030px ;
-    top: 100px;
+    left:515px ;
+    top: 50px;
     width: auto;
-    height: 927px;
-    margin-right: 20px;
-    border: 3px solid #ffffff ;
-    border-radius: 100px;
+    height: 1060px;
+    margin-right: 10px;
+    border: 1.5px solid #ffffff ;
+    border-radius: 50px;
 }
 
 #scrollBtn {
     background-color: #00558d;
-    padding: 20px 200px;
+    padding: 10px 100px;
     color: #fff;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 12.5px;
+    font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    left: 150px;
-    top: 900px;
+    left: 75px;
+    top: 450px;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: 0.2s linear;
 }
 
 #scrollBtn:hover {
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 .header-subtitle {
 
     color:rgba(255, 255, 255, 0.600);
-    font-weight: 400;
-    font-size: 35px;
-    top:300px;
-    left:150px;
+    font-weight: 200;
+    font-size: 17.5px;
+    top:150px;
+    left:75px;
     position: absolute;
-    line-height: 1.5;
-    margin-bottom: 200px;
+    line-height: 25.75px;
+    margin-bottom: 100px;
     
 
 }
@@ -227,17 +216,17 @@ position: relative;
 
 .card {
     background-color: #1c191f; /* Тёмный фон карточки */
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 430px;
-    height: 600px;
-    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 215px;
+    height: 300px;
+    padding: 10px;
     color: #fff;
     text-align: left;
-    border: 3px solid #221f25; /* Добавленная обводка */
+    border: 1.5px solid #221f25; /* Добавленная обводка */
     position: absolute;
-    top:1500px;
-    left:400px;
+    top:750px;
+    left:200px;
     transition: background-color 0.3s ease;
 }
 
@@ -245,36 +234,36 @@ position: relative;
 .card-header {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 7.5px;
 }
 
 .card-icon {position: relative;
-    left:30px ;
-    top: 30px;
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
+    left:15px ;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
     
 }
 
 .card-title {
-    top: 50px;
-    left:150px;
+    top: 25px;
+    left:75px;
     position: absolute;
-    font-size:60px;
-    font-weight:900;
+    font-size:30px;
+    font-weight:350;
     margin: 0;    
 }
 
 .card-body {
     color:rgba(255, 255, 255, 0.600);
-    font-weight: 350;
-    font-size: 25px;
-    top:150px;
-    left:50px;
+    font-weight: 175;
+    font-size: 12.5px;
+    top:75px;
+    left:25px;
     position: absolute;
     line-height: 1.5;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .card-footer {
@@ -285,12 +274,12 @@ position: relative;
     background-color: #2e2b33; /* Цвет кнопки */
     border: 1px solid #28252b;
     position: absolute;
-    top:500px;
-    right:50px;
-    border-radius: 20px;
-    padding: 25px 120px;
+    top:250px;
+    right:25px;
+    border-radius: 10px;
+    padding: 12.5px 60px;
     color: #fff;
-    font-size: 26px;
+    font-size: 13px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -300,17 +289,17 @@ position: relative;
 }
 .card1 {
     background-color: #1c191f; /* Тёмный фон карточки */
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 430px;
-    height: 600px;
-    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 215px;
+    height: 300px;
+    padding: 10px;
     color: #fff;
     text-align: left;
     border: 3px solid #221f25; /* Добавленная обводка */
     position: absolute;
-    top:1500px;
-    left:1000px;
+    top:750px;
+    left:500px;
     transition: background-color 0.3s ease;
 }
 
@@ -318,36 +307,36 @@ position: relative;
 .card-header1 {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 7.5px;
 }
 
 .card-icon1 {position: relative;
-    left:30px ;
-    top: 30px;
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
+    left:15px ;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
     
 }
 
 .card-title1 {
-    top: 50px;
-    left:150px;
+    top: 25px;
+    left:75px;
     position: absolute;
-    font-size:60px;
-    font-weight:900;
+    font-size:30px;
+    font-weight:300;
     margin: 0;    
 }
 
 .card-body1 {
     color:rgba(255, 255, 255, 0.600);
-    font-weight: 350;
-    font-size: 25px;
-    top:150px;
-    left:50px;
+    font-weight: 175;
+    font-size: 12.5px;
+    top:75px;
+    left:25px;
     position: absolute;
     line-height: 1.5;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .card-footer1 {
@@ -358,69 +347,69 @@ position: relative;
     background-color: #2e2b33; /* Цвет кнопки */
     border: 1px solid #28252b;
     position: absolute;
-    top:500px;
-    right:50px;
-    border-radius: 20px;
-    padding: 25px 120px;
+    top:250px;
+    right:25px;
+    border-radius: 10px;
+    padding: 12.5px 60px;
     color: #fff;
-    font-size: 26px;
+    font-size: 13px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.card-button:hover {
+.card-button1:hover {
     background-color: #555555; /* Цвет кнопки при наведении */
 }
 .card2 {
     background-color: #1c191f; /* Тёмный фон карточки */
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 430px;
-    height: 600px;
-    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 215px;
+    height: 300px;
+    padding: 10px;
     color: #fff;
     text-align: left;
     border: 3px solid #221f25; /* Добавленная обводка */
     position: absolute;
-    top:1500px;
-    left:1600px;
-    transition: background-color 0.3s ease;
+    top:750px;
+    left:800px;
+    transition: background-color 0.3s ease
 }
 
 
 .card-header2 {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 7.5px;
 }
 
 .card-icon2 {position: relative;
-    left:30px ;
-    top: 30px;
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
+    left:15px ;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
     
 }
 
 .card-title2 {
-    top: 50px;
-    left:150px;
+    top: 25px;
+    left:75px;
     position: absolute;
-    font-size:60px;
-    font-weight:900;
+    font-size:30px;
+    font-weight:450;
     margin: 0;    
 }
 
 .card-body2 {
     color:rgba(255, 255, 255, 0.600);
-    font-weight: 350;
-    font-size: 25px;
-    top:150px;
-    left:50px;
+    font-weight: 175;
+    font-size: 12.5px;
+    top:75px;
+    left:25px;
     position: absolute;
     line-height: 1.5;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .card-footer2 {
@@ -431,28 +420,28 @@ position: relative;
     background-color: #2e2b33; /* Цвет кнопки */
     border: 1px solid #28252b;
     position: absolute;
-    top:500px;
-    right:50px;
-    border-radius: 20px;
-    padding: 25px 120px;
+    top:250px;
+    right:25px;
+    border-radius: 10px;
+    padding: 12.5px 60px;
     color: #fff;
-    font-size: 26px;
+    font-size: 13px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.card-button:hover {
+.card-button2:hover {
     background-color: #555555; /* Цвет кнопки при наведении */
 }
 .primerdonata{
     color:rgba(255, 255, 255, 0.600);
-    font-weight: 35;
-    font-size: 20px;
-    top:60px;
-    left:2550px;
+    font-weight: 17.5;
+    font-size: 10px;
+    top:47px;
+    left:1535px;
     position: absolute;
-    line-height: 1.5;
-    margin-bottom: 200px;
+    line-height: 0.5
+    margin-bottom: 100px;
 
 }
 
